@@ -1,0 +1,25 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": [
+            false
+        ],
+        "no-empty": false,
+        "object-literal-sort-keys": false,
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ]
+    },
+    "linterOptions": {
+        "exclude": [
+            "*.json"
+        ]
+    }
+}
